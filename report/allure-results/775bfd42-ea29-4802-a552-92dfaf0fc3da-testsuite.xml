@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668897385715' stop='1668897403639'>
+    <name>Interaction with Simple Elements</name>
+    <title>Interaction with Simple Elements</title>
+    <test-cases>
+        <test-case start='1668897385991' status='passed' stop='1668897403638'>
+            <name>Verify Radio buttons, checkboxes and dropdown are enabled when not interacted with.</name>
+            <title>Verify Radio buttons, checkboxes and dropdown are enabled when not interacted with.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='3-0'/>
+                <label name='feature' value='Interaction with Simple Elements'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-107.0.1418.42'/>
+            </parameters>
+            <steps>
+                <step start='1668897386105' status='passed' stop='1668897389264'>
+                    <name>Given I am on UltimateQA automation landing page</name>
+                    <title>Given I am on UltimateQA automation landing page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668897389264' status='passed' stop='1668897390233'>
+                    <name>And I click on Interaction with simple elements link</name>
+                    <title>And I click on Interaction with simple elements link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668897390234' status='passed' stop='1668897393178'>
+                    <name>Then I click "Other" from radio button</name>
+                    <title>Then I click "Other" from radio button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668897393178' status='passed' stop='1668897393607'>
+                    <name>And I verify "Other" is selected</name>
+                    <title>And I verify "Other" is selected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668897393607' status='passed' stop='1668897396224'>
+                    <name>Then I select "I have a bike" checkbox</name>
+                    <title>Then I select "I have a bike" checkbox</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668897396225' status='passed' stop='1668897398665'>
+                    <name>And I verify "I have a bike" checkbox is selected</name>
+                    <title>And I verify "I have a bike" checkbox is selected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668897398665' status='passed' stop='1668897402509'>
+                    <name>Then I select "Saab" from the dropdown menu</name>
+                    <title>Then I select "Saab" from the dropdown menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668897402509' status='passed' stop='1668897403636'>
+                    <name>Then I verify "Saab" is selected from the dropdown menu</name>
+                    <title>Then I verify "Saab" is selected from the dropdown menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

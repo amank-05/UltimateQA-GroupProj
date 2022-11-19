@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668733025380' stop='1668733030061'>
+    <name>Interaction with Simple Elements</name>
+    <title>Interaction with Simple Elements</title>
+    <test-cases>
+        <test-case start='1668733025390' status='broken' stop='1668733030060'>
+            <name>I verify “Thanks for contacting us” message when name and email are entered</name>
+            <title>I verify “Thanks for contacting us” message when name and email are entered</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Interaction with Simple Elements'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps>
+                <step start='1668733025391' status='passed' stop='1668733027678'>
+                    <name>Given I am on UltimateQA automation landing page</name>
+                    <title>Given I am on UltimateQA automation landing page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668733027678' status='passed' stop='1668733027830'>
+                    <name>And I click on Interaction with simple elements link</name>
+                    <title>And I click on Interaction with simple elements link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668733027830' status='broken' stop='1668733030060'>
+                    <name>Then I click "Other" from radio button</name>
+                    <title>Then I click "Other" from radio button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='280ad55b-212e-4a1d-8c07-c7555d41c54d-attachment.png' type='image/png' size='174229'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668733030060' status='canceled' stop='1668733030060'>
+                    <name>And I verify "Other" is selected</name>
+                    <title>And I verify "Other" is selected</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read properties of undefined (reading 'toLowerCase')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+                    at InteractionWithSimpleElements.selectRadioBtn (/Users/amank/GIT/UltimateQA-GroupProj/POM/InteractionWithSimpleElements.js:62:68)
+                    at async World.&lt;anonymous> (/Users/amank/GIT/UltimateQA-GroupProj/step-definitions/InteractionWithSimpleElementsSD.js:43:4)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

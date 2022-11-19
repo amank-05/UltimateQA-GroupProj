@@ -1,0 +1,6 @@
+
+Sauce labs key and username
+
+SAUCE_USERNAME = '****'
+SAUCE_ACCESS_KEY = '****'
+SAUCE_TUNNEL = '****'

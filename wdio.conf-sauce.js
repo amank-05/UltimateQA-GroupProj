@@ -1,14 +1,15 @@
 require('global-agent/bootstrap')
+require('dotenv').config()
 exports.config = {
     //
     // ====================
     // Runner Configuration
     // ====================
     //
-    user: sauceAuth.sauceUserName,
-    key :  sauceAuth.sauceApiKey,
+    user: process.env.sauceUserName,
+    key :  process.env.sauceApiKey,
     region : "ondemand.us-west-1.saucelabs.com:443/wd/hub",
-    'tunnelName': sauceAuth.sauceTunnel,
+    'tunnelName': process.env.sauceTunnel,
     //baseUrl: 'https://www.saucedemo.com',
     //
     // ==================

@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668728176213' stop='1668728189505'>
+    <name>Interaction with Simple Elements</name>
+    <title>Interaction with Simple Elements</title>
+    <test-cases>
+        <test-case start='1668728176223' status='broken' stop='1668728189504'>
+            <name>I verify “Thanks for contacting us” message when name and email are entered</name>
+            <title>I verify “Thanks for contacting us” message when name and email are entered</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Interaction with Simple Elements'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps>
+                <step start='1668728176225' status='passed' stop='1668728178625'>
+                    <name>Given I am on UltimateQA automation landing page</name>
+                    <title>Given I am on UltimateQA automation landing page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668728178625' status='broken' stop='1668728189503'>
+                    <name>And I click on Interaction with simple elements link</name>
+                    <title>And I click on Interaction with simple elements link</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cc3a867e-874a-42d8-ae06-a774a7cb8764-attachment.png' type='image/png' size='997811'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668728189504' status='canceled' stop='1668728189504'>
+                    <name>And I enter a name in name field</name>
+                    <title>And I enter a name in name field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668728189504' status='canceled' stop='1668728189504'>
+                    <name>And I enter an email in email field</name>
+                    <title>And I enter an email in email field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668728189504' status='canceled' stop='1668728189504'>
+                    <name>Then I click "Email me!" button</name>
+                    <title>Then I click "Email me!" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668728189504' status='broken' stop='1668728189504'>
+                    <name>And I verify Thanks for contacting us message is displayed</name>
+                    <title>And I verify Thanks for contacting us message is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "I verify Thanks for contacting us message is displayed" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I verify Thanks for contacting us message is displayed" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/amank/GIT/UltimateQA-GroupProj/features/InteractionWithSimpleElements.feature):1:1
+                	at Scenario(I verify “Thanks for contacting us” message when name and email are entered):4:5
+                	at Step(I verify Thanks for contacting us message is displayed):10:5
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

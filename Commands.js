@@ -1,5 +1,6 @@
 class Commands {
 
+
     async findWebElement(locator)   {
         return await $(locator)
     }
@@ -73,4 +74,5 @@ class Commands {
     }
 
 }
+
 module.exports = Commands;

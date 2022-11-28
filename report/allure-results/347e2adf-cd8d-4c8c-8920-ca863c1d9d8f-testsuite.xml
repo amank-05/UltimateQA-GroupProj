@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668898629184' stop='1668898643938'>
+    <name>Interaction with Simple Elements</name>
+    <title>Interaction with Simple Elements</title>
+    <test-cases>
+        <test-case start='1668898629439' status='broken' stop='1668898643937'>
+            <name>Verify “Thanks for contacting us” message when name and email are entered</name>
+            <title>Verify “Thanks for contacting us” message when name and email are entered</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='4-0'/>
+                <label name='feature' value='Interaction with Simple Elements'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-107.0'/>
+            </parameters>
+            <steps>
+                <step start='1668898629552' status='passed' stop='1668898633248'>
+                    <name>Given I am on UltimateQA automation landing page</name>
+                    <title>Given I am on UltimateQA automation landing page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668898633248' status='passed' stop='1668898634265'>
+                    <name>And I click on Interaction with simple elements link</name>
+                    <title>And I click on Interaction with simple elements link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668898634265' status='passed' stop='1668898637313'>
+                    <name>And I enter a name in name field</name>
+                    <title>And I enter a name in name field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668898637313' status='passed' stop='1668898640025'>
+                    <name>And I enter an email in email field</name>
+                    <title>And I enter an email in email field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668898640025' status='broken' stop='1668898643937'>
+                    <name>Then I click "Email me!" button</name>
+                    <title>Then I click "Email me!" button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a426ef79-93b4-43a7-873d-db32a053642a-attachment.png' type='image/png' size='73694'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668898643937' status='canceled' stop='1668898643937'>
+                    <name>And I verify "Thanks for contacting us" message is displayed</name>
+                    <title>And I verify "Thanks for contacting us" message is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;button class="et_pb_contact_submit et_pb_button" name="et_builder_submit_button" type="submit"> is not clickable at point (292,657) because another element &lt;a class="nc_tweet swp_share_link" href="https://twitter.com/intent/tweet?text=Simple+HTML+Elements+For+Automation&amp;url=https%3A%2F%2Fultimateqa.com%2Fsimple-html-elements-for-automation%2F%3Futm_source%3Dtwitter%26utm_medium%3DSocial%26utm_campaign%3DSocialWarfare&amp;via=Nikolay_a00"> obscures it</message>
+                <stack-trace>element click intercepted: Element &lt;button class="et_pb_contact_submit et_pb_button" name="et_builder_submit_button" type="submit"> is not clickable at point (292,657) because another element &lt;a class="nc_tweet swp_share_link" href="https://twitter.com/intent/tweet?text=Simple+HTML+Elements+For+Automation&amp;url=https%3A%2F%2Fultimateqa.com%2Fsimple-html-elements-for-automation%2F%3Futm_source%3Dtwitter%26utm_medium%3DSocial%26utm_campaign%3DSocialWarfare&amp;via=Nikolay_a00"> obscures it
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

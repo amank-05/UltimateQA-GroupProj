@@ -8,7 +8,7 @@ const commands = new Commands
 const bigPageFeatures = new bigPageElements
 
 Given(/^I am on Big page$/, async function() {
-    await browser.url('https://ultimateqa.com/complicated-page');
+    await browser.url('/complicated-page');
     await browser.pause(2000);
 });
 

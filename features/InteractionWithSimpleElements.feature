@@ -1,7 +1,7 @@
-@arTests    
+@sanity 
 Feature: Interaction with Simple Elements
 
-    @tc01
+    @e2e @tc01
     Scenario: Verify “Thanks for contacting us” message when name and email are entered
     Given I am on UltimateQA automation landing page
     And I click on Interaction with simple elements link
@@ -10,14 +10,14 @@ Feature: Interaction with Simple Elements
     Then I click "Email me!" button
     And I verify "Thanks for contacting us" message is displayed
 
-    @tc02
+    @tab2Displayed @tc02
     Scenario: Verify “tab 2 content” is displayed
     Given I am on UltimateQA automation landing page
     And I click on Interaction with simple elements link
     Then I scroll to tab and click on Tab 2
     Then I verify "tab 2 content" is displayed
 
-    @tc03
+    @radiobtn @checkboxes @dropdown @tc03 
     Scenario: Verify Radio buttons, checkboxes and dropdown are enabled when not interacted with.
     Given I am on UltimateQA automation landing page
     And I click on Interaction with simple elements link
